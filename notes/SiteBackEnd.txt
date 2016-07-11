@@ -1,0 +1,65 @@
+Home
+News
+About Me
+About My Jeep
+Gallery
+Travel Articles
+Modification Articles
+Contact
+
+
+
+
+
+Tables
+
+    Pages
+        PageID
+        Left Colomn Show (Yes, No)
+        Left Colomn Title
+        Right Colomn Show (Yes, No)
+        Right Colomn Title
+        Copywright
+
+    Articles
+        ArticleID
+        Date Time Stamp
+        Display (Yes, No)
+        Type (News, Travel, Mods)
+        Title
+        Short Description
+        Article
+
+    Albums
+        AlbumID
+        Date Time Stamp
+        Display (Yes, No)
+        Sort Order
+        Title
+        Description
+
+    Photos
+        PhotoID
+        AlbumID
+        Display (Yes, No)
+        FileName
+        Title
+
+    Link Categories
+        CatID
+        Sort Order
+        Display (Yes, No)
+        Category
+
+    Links
+        LinkID
+        CatID
+        Display (Yes, No)
+        URL
+        Description
+
+
+
+
+
+

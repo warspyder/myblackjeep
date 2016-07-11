@@ -1,0 +1,5 @@
+image to display is passed via url post or get
+load an array with image names from txt file
+locate image to display in the array to get previous image name and next image name
+create urls for prev and next buttons
+display image

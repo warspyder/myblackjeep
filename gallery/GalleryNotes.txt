@@ -1,0 +1,11 @@
+Load Albums
+Display Main Gallery Page
+
+on album click
+  Load album index
+  display album index page
+  
+on photo click
+  display photo with next and prev buttons
+
+  

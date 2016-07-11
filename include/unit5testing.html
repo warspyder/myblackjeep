@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<!-- 
+		Comments:
+		
+	-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta http-equiv="expires" content="+30">
+		<meta name="author" content="Mark Coulter">
+
+		<title>Unit 3 - Exercise 6.2</title>
+		
+		<style type="text/css">
+			table 
+				{	text-align:center;
+				}
+				
+			.bold
+				{	font-weight:bold;
+				}
+				
+			em.propername				
+				{	font-style:italic;
+				}
+
+			#pageFooter
+				{	font-size:60%;
+				}
+		</style>		
+
+	</head>
+
+	<body id="unit3">
+		<div id="pageContainer">
+			<div id="pageHeader">
+				<h1>Unit 3 - Exercise 6.2</h1>
+			</div> <!-- end of pageHeader -->
+
+
+			<div id="pageContent">
+
+<!--
+
+
+
+<table border='1'>
+	<tr>
+		<td colspan='7'>February</td>
+	</tr>
+	<tr>
+		<td>Sun</td>
+		<td>Mon</td>
+		<td>Tue</td>
+		<td>Wed</td>
+		<td>Thu</td>
+		<td>Fri</td>
+		<td>Sat</td>
+	</tr>
+
+	<tr>
+		<td>1</td>
+		<td class='bold'>2</td>
+		<td>3</td>
+		<td class='bold'>4</td>
+		<td>5</td>
+		<td class='bold'>6</td>
+		<td>7</td>
+	</tr>
+
+	<tr>
+		<td class='bold'>8</td>
+		<td>9</td>
+		<td class='bold'>10</td>
+		<td>11</td>
+		<td class='bold'>12</td>
+		<td>13</td>
+		<td class='bold'>14</td>
+	</tr>
+
+	
+</table>
+-->
+
+
+<?php
+//Unit 5 Assignment
+
+$startDay = 3;	// Sun=0, Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6
+				// Most dates routines return the above for the day of week.
+$daysInTheMonth = 28;		// Number of days in the month
+$monthName = "February";	// Name of the month
+
+$currentDay;	// Used to add empty <td> tags before start of the month
+		
+
+echo "<table border='1'>";
+echo "<tr><td colspan='7'>$monthName</td></tr>";
+echo "<tr><td>Sun</td><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td>Sat</td></tr>";
+echo "<tr>";
+
+for($currentDay = 0; $currentDay < startDay; $currentDay++) {
+	echo "<td class='nodate'></td>";
+
+
+
+}
+echo "</tr>
+echo "</table>";
+?>
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
